@@ -1,0 +1,314 @@
+/* common class satrts from here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    background-color: #E5E5E5;
+}
+
+.head_line {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 136.02%;
+    margin-bottom: 4px;
+}
+
+.head_line:hover {
+    text-decoration: underline 2px solid #4C6FFF;
+}
+
+.button {
+    background-color: #4C6FFF;
+    border-radius: 6px;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.button:hover{
+    background-color: #66CB9F;
+    color: white;
+}
+
+.button_padd {
+    padding: 12px 20px;
+}
+
+#lable {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.left_mg {
+    margin-right: 8px;
+}
+
+.mg_top {
+    margin-top: 24px;
+}
+
+.row_1_comm_padd {
+    padding: 24px 24px 0 24px;
+}
+
+.row_2_comm_padd {
+    padding: 24px 20px 16px 16px;
+}
+
+.row_2_a_comm_padd {
+    padding: 8px 8px 24px 8px;
+}
+
+.row_3_comm_padd {
+    padding: 24px;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* common class ends here */
+
+/* section starts from here */
+
+/* row_1 starts from here */
+
+.bg {
+    background-color: white;
+    /* margin-top: 60px; */
+    /* padding: 24px 24px 0 24px; */
+    border-radius: 16px;
+    /* margin-bottom: 234px; */
+    height: 592px;
+}
+
+.bg:hover {
+    outline: 2px solid rgb(92, 92, 230);
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.accordion>.card>.card-header {
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+.text_clr {
+    color: #4C6FFF;
+}
+
+.btn-link {
+    color: #27272E;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #4C6FFF;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn {
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 136.02%;
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 0.5px gainsboro;
+    border-radius: 10px;
+}
+
+
+.span_clr {
+    color: gray;
+}
+
+.flex_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+}
+
+.icon_bg span {
+    background-color: #4C6FFF;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.icon_bg img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.icon_star {
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-20%,-70%);
+}
+
+.icon_star i {
+    background-color: #66CB9F;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    outline: 2px solid white;
+}
+
+.icon_dots{
+    font-size: 26px;
+    color: #7A7A9D;
+}
+
+.headline_text span{
+    display: inline-block;
+    margin-left: 12px;
+}
+
+/* row_1 ends here */
+
+/* Row_2 starts from here */
+
+.height {
+    height: 160px;
+}
+
+.pera_line {
+    margin-bottom: 25px;
+}
+
+.height_1 {
+    height: 400px;
+    margin-top: 30px;
+}
+
+.card_img {
+    margin-bottom: 24px;
+
+}
+
+.card_img img {
+    border-radius: 16px;
+}
+
+.card_pera_text {
+    color: #425466;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 24px;
+}
+
+.card_text {
+    padding-left: 16px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #EDF2F7;
+    padding: 12px 0;
+    border: transparent;
+}
+
+.input::placeholder {
+    padding-left: 12px;
+}
+
+.relative {
+    position: relative;
+}
+
+.postion {
+    position: absolute;
+    top: 5px;
+    transform: translateX(-80px);
+}
+
+/* Row_2 ends here */
+
+/* Row_3 starts from here */
+
+.row_height {
+    height: 205px;
+    margin-bottom: 33px;
+}
+
+.row_text {
+    color: #425466;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+
+.button_gray {
+    background-color: #E4ECF7;
+    border-radius: 6px;
+    border: transparent;
+    color: #505780;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.button_gray:hover{
+    background-color: #66CB9F;
+    color: white;
+}
+
+.row_button {
+    padding: 8px 10px;
+}
+
+/* Row_3 ends here */
+
+/* section ends here */
